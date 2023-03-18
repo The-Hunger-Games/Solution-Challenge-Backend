@@ -1,0 +1,19 @@
+{
+  "name": "solution-challenge",
+  "version": "1.0.0",
+  "description": "Solution Challenge Backend ",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Hunger-Games/Solution-Challenge-Backend.git"
+  },
+  "author": "soujanya hazra <soujanya0105@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/The-Hunger-Games/Solution-Challenge-Backend/issues"
+  },
+  "homepage": "https://github.com/The-Hunger-Games/Solution-Challenge-Backend#readme"
+}
