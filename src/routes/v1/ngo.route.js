@@ -13,7 +13,7 @@ router
 
 router
   .route('/:userId')
-  .get(auth('getNGOs'), validate(NGOValidation.getNgo), NGOController.getNgo)
+  .get(auth('getNGO'), validate(NGOValidation.getNgo), NGOController.getNgo)
   .patch(auth('manageNGOs'), validate(NGOValidation.updateNgo), NGOController.updateNgo)
   .delete(auth('manageNGOs'), validate(NGOValidation.deleteNgo), NGOController.deleteNgo);
 

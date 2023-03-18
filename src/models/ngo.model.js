@@ -47,19 +47,19 @@ const ngoSchema = mongoose.Schema(
     },
     latitude: {
       type: Number,
-      required: true,
+      // required: true,
     },
     longitude: {
       type: Number,
-      required: true,
+      // required: true,
     },
     foodDonated: {
       type: Number,
-      required: true,
+      default: 0,
     },
     foodWasted: {
       type: Number,
-      required: true,
+      default: 0,
     },
     isEmailVerified: {
       type: Boolean,
